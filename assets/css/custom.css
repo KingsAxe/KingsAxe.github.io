@@ -1,0 +1,110 @@
+/* ================================
+   Custom Accent Override (LAST LOADED)
+   Primary: #0A2A5E
+================================ */
+
+:root{
+  --accent: #0A2A5E;
+  --accent-hover: #0D3575;
+  --accent-soft: rgba(10,42,94,.12);
+}
+
+/* --- Links --- */
+body a:hover,
+#intro a:hover,
+#header a:hover,
+#nav a:hover,
+#footer a:hover,
+#copyright a:hover{
+  color: #0A2A5E !important;
+  border-bottom-color: transparent !important;
+}
+
+/* --- Buttons (outline hover) --- */
+body input[type="submit"]:hover,
+body input[type="reset"]:hover,
+body input[type="button"]:hover,
+body button:hover,
+body .button:hover,
+#intro input[type="submit"]:hover,
+#intro input[type="reset"]:hover,
+#intro input[type="button"]:hover,
+#intro button:hover,
+#intro .button:hover,
+#footer input[type="submit"]:hover,
+#footer input[type="reset"]:hover,
+#footer input[type="button"]:hover,
+#footer button:hover,
+#footer .button:hover{
+  box-shadow: inset 0 0 0 2px #0A2A5E !important;
+  color: #0A2A5E !important;
+}
+
+/* --- Primary buttons --- */
+body input[type="submit"].primary,
+body input[type="reset"].primary,
+body input[type="button"].primary,
+body button.primary,
+body .button.primary{
+  background-color: #0A2A5E !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+
+body input[type="submit"].primary:hover,
+body input[type="reset"].primary:hover,
+body input[type="button"].primary:hover,
+body button.primary:hover,
+body .button.primary:hover{
+  background-color: #0D3575 !important;
+}
+
+/* --- Header logo hover --- */
+#header .logo:hover{
+  border-color: #0A2A5E !important;
+  color: #0A2A5E !important;
+}
+
+/* --- Form focus (inputs/select/textarea) --- */
+body input[type="text"]:focus,
+body input[type="password"]:focus,
+body input[type="email"]:focus,
+body select:focus,
+body textarea:focus,
+#footer input[type="text"]:focus,
+#footer input[type="password"]:focus,
+#footer input[type="email"]:focus,
+#footer select:focus,
+#footer textarea:focus{
+  border-color: #0A2A5E !important;
+}
+
+/* --- Icons hover --- */
+ul.icons li a.icon:hover:before,
+#nav ul.icons li a.icon:hover:before,
+#footer ul.icons li a.icon:hover:before{
+  color: #0A2A5E !important;
+}
+
+ul.icons.alt li a.icon:hover:before,
+#nav ul.icons.alt li a.icon:hover:before,
+#footer ul.icons.alt li a.icon:hover:before{
+  box-shadow: inset 0 0 0 2px #0A2A5E !important;
+}
+
+/* --- Pagination hover --- */
+.pagination a:hover,
+#footer .pagination a:hover{
+  color: #0A2A5E !important;
+  border-color: #0A2A5E !important;
+}
+
+/* --- Nav active: subtle underline, keep background clean --- */
+#nav ul.links li.active a{
+  box-shadow: inset 0 -3px 0 0 rgba(10,42,94,.12) !important;
+}
+
+#nav ul.links li.active a:hover{
+  color: #0A2A5E !important;
+  box-shadow: inset 0 -3px 0 0 #0A2A5E !important;
+}
