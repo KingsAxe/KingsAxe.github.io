@@ -4848,3 +4848,17 @@ ul.icons.alt li a.icon:hover:before,
   color: var(--accent) !important;
   box-shadow: inset 0 -3px 0 0 var(--accent) !important;
 }
+
+
+
+html::after{
+  content:"";
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  width: 10px;
+  height: 10px;
+  background: #0A2A5E;
+  border-radius: 999px;
+  z-index: 999999;
+}
