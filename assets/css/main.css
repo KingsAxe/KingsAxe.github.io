@@ -5,7 +5,6 @@
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
 */
 
 html, body, div, span, applet, object,
@@ -299,7 +298,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #0A2A5E !important;
 		}
 
 	strong, b {
@@ -2216,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #0A2A5E;
+			color: #0A2A5E !important;
 		}
 
 		input[type="submit"].primary,
@@ -2235,7 +2234,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #0A2A5E;
 			}
 
 /* Form */
@@ -2492,7 +2491,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: #0A2A5E;
 		}
 
 	select {
@@ -2527,7 +2526,7 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
+		border-color: #0A2A5E;
 	}
 
 	::-webkit-input-placeholder {
@@ -2891,7 +2890,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #0A2A5E;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2899,7 +2898,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #0A2A5E;
 	}
 
 /* Section/Article */
@@ -3198,14 +3197,14 @@ input, select, textarea {
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #0A2A5E !important;
+			border-color: #0A2A5E;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #0A2A5E;
 			}
 
 		.pagination a.active {
@@ -3325,7 +3324,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #0A2A5E !important;
 			}
 
 		#intro strong, #intro b {
@@ -3364,8 +3363,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #0A2A5E;
+				color: #0A2A5E !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3383,7 +3382,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #0A2A5E;
 				}
 
 		#intro h1 {
@@ -3534,7 +3533,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #0A2A5E !important;
 			}
 
 		#header strong, #header b {
@@ -3578,8 +3577,8 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #0A2A5E !important;
+				color: #0A2A5E !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3633,7 +3632,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #0A2A5E;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3641,7 +3640,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #0A2A5E;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3655,7 +3654,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #0A2A5E !important;
 			}
 
 		#nav strong, #nav b {
@@ -3731,7 +3730,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #0A2A5E !important;
 						}
 
 		#nav ul.icons {
@@ -3975,7 +3974,7 @@ input, select, textarea {
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #0A2A5E !important;
 			}
 
 		#footer strong, #footer b {
@@ -4018,8 +4017,8 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #0A2A5E;
+				color: #0A2A5E !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4037,7 +4036,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #0A2A5E;
 				}
 
 		#footer label {
@@ -4057,7 +4056,7 @@ input, select, textarea {
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #0A2A5E;
 			}
 
 		#footer select {
@@ -4092,7 +4091,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #0A2A5E;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4120,7 +4119,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #0A2A5E;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4128,7 +4127,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #0A2A5E;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4168,14 +4167,14 @@ input, select, textarea {
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #0A2A5E !important;
+				border-color: #0A2A5E;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a,
 				#footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #0A2A5E;
 				}
 
 			#footer .pagination a.active {
@@ -4412,7 +4411,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #0A2A5E !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -4688,177 +4687,3 @@ input, select, textarea {
 		}
 
 	}
-
-
-
-
-/* ================================
-   Accent Override (Professional)
-   Primary: #0A2A5E
-   Paste at END of stylesheet
-================================ */
-
-:root{
-  --accent: #0A2A5E;
-  --accent-hover: #0D3575;          /* slightly lighter for hover fills */
-  --accent-soft: rgba(10,42,94,.12); /* subtle underline/active hint */
-}
-
-/* Links (global + template sections) */
-a:hover,
-#intro a:hover,
-#header a:hover,
-#nav a:hover,
-#footer a:hover,
-#copyright a:hover {
-  color: var(--accent) !important;
-  border-bottom-color: transparent !important;
-}
-
-/* Buttons (outline hover + primary button background) */
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-button:hover,
-.button:hover,
-#intro input[type="submit"]:hover,
-#intro input[type="reset"]:hover,
-#intro input[type="button"]:hover,
-#intro button:hover,
-#intro .button:hover,
-#footer input[type="submit"]:hover,
-#footer input[type="reset"]:hover,
-#footer input[type="button"]:hover,
-#footer button:hover,
-#footer .button:hover {
-  box-shadow: inset 0 0 0 2px var(--accent) !important;
-  color: var(--accent) !important;
-}
-
-/* Primary buttons: use brand color, hover slightly lighter */
-input[type="submit"].primary,
-input[type="reset"].primary,
-input[type="button"].primary,
-button.primary,
-.button.primary {
-  background-color: var(--accent) !important;
-  border-color: var(--accent) !important;
-  box-shadow: none !important;
-  color: #ffffff !important;
-}
-
-input[type="submit"].primary:hover,
-input[type="reset"].primary:hover,
-input[type="button"].primary:hover,
-button.primary:hover,
-.button.primary:hover {
-  background-color: var(--accent-hover) !important;
-}
-
-/* Ensure template-specific primary buttons follow same rule */
-#intro input[type="submit"].primary,
-#intro input[type="reset"].primary,
-#intro input[type="button"].primary,
-#intro button.primary,
-#intro .button.primary,
-#footer input[type="submit"].primary,
-#footer input[type="reset"].primary,
-#footer input[type="button"].primary,
-#footer button.primary,
-#footer .button.primary {
-  background-color: var(--accent) !important;
-  color: #ffffff !important;
-  box-shadow: none !important;
-}
-
-#intro input[type="submit"].primary:hover,
-#intro input[type="reset"].primary:hover,
-#intro input[type="button"].primary:hover,
-#intro button.primary:hover,
-#intro .button.primary:hover,
-#footer input[type="submit"].primary:hover,
-#footer input[type="reset"].primary:hover,
-#footer input[type="button"].primary:hover,
-#footer button.primary:hover,
-#footer .button.primary:hover {
-  background-color: var(--accent-hover) !important;
-}
-
-/* Header logo hover (matches new accent) */
-#header .logo:hover {
-  border-color: var(--accent) !important;
-  color: var(--accent) !important;
-}
-
-/* Form focus states (polished + accessible) */
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-select:focus,
-textarea:focus,
-#footer input[type="text"]:focus,
-#footer input[type="password"]:focus,
-#footer input[type="email"]:focus,
-#footer select:focus,
-#footer textarea:focus {
-  border-color: var(--accent) !important;
-}
-
-/* Checkbox/radio focus ring */
-input[type="checkbox"]:focus + label:before,
-input[type="radio"]:focus + label:before,
-#footer input[type="checkbox"]:focus + label:before,
-#footer input[type="radio"]:focus + label:before {
-  border-color: var(--accent) !important;
-}
-
-/* Icons hover */
-ul.icons li a.icon:hover:before,
-#nav ul.icons li a.icon:hover:before,
-#footer ul.icons li a.icon:hover:before {
-  color: var(--accent) !important;
-}
-
-ul.icons.alt li a.icon:hover:before,
-#nav ul.icons.alt li a.icon:hover:before,
-#footer ul.icons.alt li a.icon:hover:before {
-  box-shadow: inset 0 0 0 2px var(--accent) !important;
-}
-
-/* Pagination hover */
-.pagination a:hover,
-#footer .pagination a:hover {
-  color: var(--accent) !important;
-  border-color: var(--accent) !important;
-}
-
-.pagination a:hover + a,
-.pagination a:hover + span,
-#footer .pagination a:hover + a,
-#footer .pagination a:hover + span {
-  border-left-color: var(--accent) !important;
-}
-
-/* Nav active state: keep white background, add subtle branded underline */
-#nav ul.links li.active a {
-  box-shadow: inset 0 -3px 0 0 var(--accent-soft) !important;
-}
-
-#nav ul.links li.active a:hover {
-  color: var(--accent) !important;
-  box-shadow: inset 0 -3px 0 0 var(--accent) !important;
-}
-
-
-
-html::after{
-  content:"";
-  position: fixed;
-  top: 8px;
-  left: 8px;
-  width: 10px;
-  height: 10px;
-  background: #0A2A5E;
-  border-radius: 999px;
-  z-index: 999999;
-}
