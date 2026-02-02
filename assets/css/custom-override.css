@@ -1,0 +1,160 @@
+/* =========================================================
+   Custom UI Overrides for HTML5UP "Massively"
+   - Keeps the "Massively feel" (animations, layout, JS) intact
+   - Only adjusts branding, colors, and subtle UI polish
+   Paste as: assets/css/custom-override.css
+   Then include AFTER main.css in <head>
+========================================================= */
+
+:root{
+  --navy: #0A2A5E;
+  --navy-hover: #0D3575;
+  --purple: #6B5B95;
+  --gold: #D4AF37;
+
+  --card-radius: 18px;
+  --card-shadow: 0 14px 40px rgba(0,0,0,.10);
+}
+
+/* -------------------------
+   Background (safe override)
+   ------------------------- */
+/* Keep template overlay.png but shift the mood with a branded gradient.
+   If you want the original background back, just delete this block. */
+#wrapper > .bg{
+  background-image:
+    url("../../images/overlay.png"),
+    linear-gradient(120deg, rgba(10,42,94,.55), rgba(107,91,149,.35)),
+    url("../../images/bg.jpg") !important;
+  background-size: auto, auto, 100% auto !important;
+  background-position: center, center, top center !important;
+  background-repeat: repeat, no-repeat, no-repeat !important;
+}
+
+/* -------------------------
+   Links + accents
+   ------------------------- */
+a:hover,
+#header a:hover,
+#nav a:hover,
+#footer a:hover,
+#copyright a:hover{
+  color: var(--gold) !important;
+  border-bottom-color: transparent !important;
+}
+
+/* Header logo hover */
+#header .logo:hover{
+  border-color: var(--gold) !important;
+  color: var(--gold) !important;
+}
+
+/* Nav active state: keep the Massively look, add subtle underline */
+#nav ul.links li.active a{
+  box-shadow: inset 0 -3px 0 0 rgba(212,175,55,.25) !important;
+}
+#nav ul.links li.active a:hover{
+  color: var(--gold) !important;
+  box-shadow: inset 0 -3px 0 0 var(--gold) !important;
+}
+
+/* Icon hovers */
+ul.icons li a.icon:hover:before,
+#nav ul.icons li a.icon:hover:before,
+#footer ul.icons li a.icon:hover:before{
+  color: var(--gold) !important;
+}
+ul.icons.alt li a.icon:hover:before,
+#nav ul.icons.alt li a.icon:hover:before,
+#footer ul.icons.alt li a.icon:hover:before{
+  box-shadow: inset 0 0 0 2px var(--gold) !important;
+}
+
+/* -------------------------
+   Buttons (safe)
+   ------------------------- */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+  border-color: rgba(255,255,255,.25);
+}
+
+/* Outline hover */
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover{
+  box-shadow: inset 0 0 0 2px var(--gold) !important;
+  color: var(--gold) !important;
+  border-color: var(--gold) !important;
+}
+
+/* Primary buttons */
+.button.primary,
+button.primary,
+input[type="submit"].primary,
+input[type="reset"].primary,
+input[type="button"].primary{
+  background-color: var(--navy) !important;
+  border-color: var(--navy) !important;
+  box-shadow: none !important;
+  color: #fff !important;
+}
+.button.primary:hover,
+button.primary:hover,
+input[type="submit"].primary:hover,
+input[type="reset"].primary:hover,
+input[type="button"].primary:hover{
+  background-color: var(--navy-hover) !important;
+}
+
+/* -------------------------
+   Cards / posts polish
+   ------------------------- */
+#main > .post,
+#main > section.posts > article,
+#main > article{
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+/* Give featured post a slightly stronger presence (without breaking layout) */
+#main > article.post.featured{
+  box-shadow: 0 18px 55px rgba(0,0,0,.14);
+}
+
+/* Images in cards: soften corners */
+.image.fit img{
+  border-radius: 14px;
+}
+
+/* -------------------------
+   Form focus (nice + consistent)
+   ------------------------- */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus{
+  border-color: var(--gold) !important;
+}
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before{
+  border-color: var(--gold) !important;
+}
+
+/* -------------------------
+   Intro headline: subtle boost
+   ------------------------- */
+#intro h1{
+  letter-spacing: .08em;
+}
+#intro p{
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+}
