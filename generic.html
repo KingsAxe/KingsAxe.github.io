@@ -1,3 +1,4 @@
+<!-- generic.html (Case Studies page) -->
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
@@ -6,9 +7,10 @@
 -->
 <html>
 	<head>
-		<title>Generic Page - Massively by HTML5 UP</title>
+		<title>Case Studies | Kingsley Ohere</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Case studies: Local RAG Engine and CallSense — production-minded AI systems." />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -19,21 +21,20 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
+						<a href="index.html" class="logo">Kingsley Ohere</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">This is Massively</a></li>
-							<li class="active"><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
+							<li><a href="index.html">Projects</a></li>
+							<li class="active"><a href="generic.html">Case Studies</a></li>
+							<li><a href="elements.html">Newsletter &amp; Mentorship</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://github.com/KingsAxe/" class="icon brands fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/kingsley-ohere/" class="icon brands fa-linkedin" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://medium.com/@kingsleyohere/" class="icon brands fa-medium" target="_blank" rel="noopener"><span class="label">Medium</span></a></li>
 						</ul>
 					</nav>
 
@@ -43,64 +44,117 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h1>This is a<br />
-									Generic Page</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<span class="date">Case Studies</span>
+									<h1>How I Build Production-Ready AI</h1>
+									<p>
+										These case studies highlight how I approach real constraints: privacy, reliability, auditability,
+										and maintainability — not just model performance.
+									</p>
 								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+
+								<!-- Case Study 1 -->
+								<h2>Building a Local RAG Engine for Secure Knowledge Retrieval</h2>
+								<p>
+									This project focused on designing a Retrieval-Augmented Generation system that runs entirely locally,
+									enabling users to query private research documents without relying on external APIs. The architecture
+									prioritizes data sovereignty, epistemic transparency, and long-term extensibility.
+								</p>
+
+								<h3>Problem</h3>
+								<ul>
+									<li>Sensitive documents could not leave the local environment</li>
+									<li>LLM responses needed grounding in verifiable sources</li>
+									<li>Retrieval accuracy and response quality had to be auditable</li>
+								</ul>
+
+								<h3>Approach</h3>
+								<ul>
+									<li>Hybrid retrieval combining dense embeddings and keyword search</li>
+									<li>Structured reasoning and belief reporting</li>
+									<li>Modular ingestion, retrieval, and generation pipeline</li>
+								</ul>
+
+								<h3>Results</h3>
+								<ul>
+									<li>Accurate, source-grounded responses</li>
+									<li>Fully offline-capable architecture</li>
+									<li>Improved trust and repeatability in AI-assisted research</li>
+								</ul>
+
+								<h3>Stack</h3>
+								<p>Python, Local LLMs, Vector Databases, NLP Pipelines</p>
+
+								<ul class="actions">
+									<li><a href="https://github.com/KingsAxe/local-rag-knowledge-engine" class="button" target="_blank" rel="noopener">View on GitHub</a></li>
+								</ul>
+
+								<hr />
+
+								<!-- Case Study 2 -->
+								<h2>CallSense: Turning Customer Calls into Actionable Intelligence</h2>
+								<p>
+									CallSense was built to analyze customer call data at scale, extracting sentiment, intent, and recurring
+									behavioral patterns to support faster, data-backed decision-making.
+								</p>
+
+								<h3>Problem</h3>
+								<ul>
+									<li>High volume of unstructured call recordings</li>
+									<li>Manual reviews were slow and inconsistent</li>
+									<li>Key insights were often missed or delayed</li>
+								</ul>
+
+								<h3>Approach</h3>
+								<ul>
+									<li>Speech-to-text preprocessing</li>
+									<li>NLP-based sentiment and intent extraction</li>
+									<li>Analytics layer for aggregating insights</li>
+								</ul>
+
+								<h3>Results</h3>
+								<ul>
+									<li>Faster insight generation</li>
+									<li>Reduced manual analysis overhead</li>
+									<li>Clear visibility into customer behavior trends</li>
+								</ul>
+
+								<h3>Stack</h3>
+								<p>Python, NLP Models, Data Pipelines, Streamlit</p>
+
+								<ul class="actions">
+									<li><a href="https://github.com/KingsAxe/call-center-analytics" class="button" target="_blank" rel="noopener">GitHub</a></li>
+									<li><a href="https://callsense-ai.streamlit.app/" class="button" target="_blank" rel="noopener">Live Demo</a></li>
+								</ul>
+
+								<hr />
+
+								<!-- Keep template image block(s) available (placeholders) -->
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p>
+									<!-- If you want to replace this image later, keep the block and change the filename. -->
+								</p>
+
 							</section>
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
 						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
+								<p><a href="mailto:oherekingsley14@gmail.com">oherekingsley14@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Portfolio</h3>
+								<p><a href="https://kingsaxe.github.io/" target="_blank" rel="noopener">kingsaxe.github.io</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://github.com/KingsAxe/" class="icon brands alt fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/kingsley-ohere/" class="icon brands alt fa-linkedin" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://medium.com/@kingsleyohere/" class="icon brands alt fa-medium" target="_blank" rel="noopener"><span class="label">Medium</span></a></li>
 								</ul>
 							</section>
 						</section>
@@ -108,7 +162,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; Kingsley Ohere</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
 			</div>
